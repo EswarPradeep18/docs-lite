@@ -1,0 +1,16 @@
+# Render Blueprint: free web service, no build step, no dependencies.
+# Note: the free plan's disk is ephemeral. Data persists across refreshes and
+# restarts of the running instance, but is reset on redeploy or when the free
+# instance spins down after inactivity; the demo users and welcome doc are
+# re-seeded automatically on boot. See README "Deployment" for durable options.
+services:
+  - type: web
+    name: docs-lite
+    runtime: node
+    plan: free
+    buildCommand: "echo 'No dependencies to install'"
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

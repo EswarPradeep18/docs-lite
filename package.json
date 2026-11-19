@@ -1,0 +1,15 @@
+{
+  "name": "docs-lite",
+  "version": "1.0.0",
+  "description": "A lightweight collaborative document editor: rich-text editing, file import, sharing with roles. Zero runtime dependencies.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/**/*.test.js\""
+  }
+}

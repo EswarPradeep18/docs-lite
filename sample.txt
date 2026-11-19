@@ -1,0 +1,4 @@
+Plain text import example.
+Line breaks inside a paragraph are kept.
+
+A blank line starts a new paragraph.
