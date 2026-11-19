@@ -2,7 +2,7 @@
 
 A lightweight collaborative document editor inspired by Google Docs. Create and format documents, import files, and share them with teammates as editors or viewers.
 
-**Live demo:** `<LIVE_URL>` (see [Deployment](#deployment))
+**Live demo:** https://docs-lite-mj8o.onrender.com
 **Walkthrough video:** see [`VIDEO_URL.txt`](VIDEO_URL.txt)
 
 ![Editor](docs/screenshots/03-editor.png)
